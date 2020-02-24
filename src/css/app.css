@@ -1,1 +1,35 @@
 /* app global css */
+
+.myclass-state{
+  width: 250px;
+  height:  250px;
+  overflow: hidden;
+  border-radius: 100%;
+  margin: auto;
+
+}
+.on{
+  border: 2px solid green;
+  color: green;
+}
+
+.on-non-bord{
+
+  color: green;
+}
+
+.off{
+    border: 2px solid red;
+    color: red;
+}
+.off-non-bord{
+    color: red;
+}
+
+
+
+
+
+.my-items-personal-data > div{
+      padding-bottom: 4px
+}
