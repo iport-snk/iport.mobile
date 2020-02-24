@@ -23,5 +23,6 @@ export default function () {
         traf1: undefined,
         services: [],
         bonus: undefined,
+        deviceId: undefined
     }
 }

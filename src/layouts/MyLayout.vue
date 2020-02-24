@@ -96,7 +96,12 @@
     export default {
         name: 'MyLayout',
         preFetch({store}) {
+
             return store.dispatch('user/load');
+        },
+
+        mounted() {
+            console.log('ver', this.$q.version);
         },
 
 

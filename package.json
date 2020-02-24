@@ -1,9 +1,9 @@
 {
   "name": "iport.mobile",
-  "version": "0.0.1",
-  "description": "A Quasar Framework app",
-  "productName": "Quasar App",
-  "cordovaId": "org.cordova.quasar.app",
+  "version": "0.0.4",
+  "description": "Iport Mobile App",
+  "productName": "Iport Mobile",
+  "cordovaId": "com.iport.mobile",
   "capacitorId": "",
   "author": "oleg.k <oleg.k@iport.net.ua>",
   "private": true,
@@ -16,10 +16,10 @@
     "axios": "^0.19.2",
     "js-md5": "^0.7.3",
     "pouchdb": "^7.1.1",
-    "quasar": "^1.8.3"
+    "quasar": "^1.8.5"
   },
   "devDependencies": {
-    "@quasar/app": "^1.5.2",
+    "@quasar/app": "^1.5.3",
     "@vue/eslint-config-standard": "^4.0.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.10.0",
